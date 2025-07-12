@@ -10,7 +10,7 @@ const CONFIG = {
     PROXIO_HERO_TITLE_1: '昆仑人才研究院：加速企业组织级AI能力体系构建', // 英雄区文字
     PROXIO_HERO_TITLE_2: '从AI认知到实战落地，一站式解决企业人才转型痛点', // 英雄区文字
     // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-    PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+    PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
     PROXIO_HERO_BUTTON_1_URL:
         'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
     PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
