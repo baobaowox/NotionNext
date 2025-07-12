@@ -157,7 +157,7 @@ const CONFIG = {
     ],
 
     // 关于作者区块
-    PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+    PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
     PROXIO_ABOUT_TITLE: '关于作者',
     PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
     PROXIO_ABOUT_TEXT_2:
@@ -186,55 +186,7 @@ const CONFIG = {
 
     PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
 
-    // 页脚三列菜单组
-    // 页脚菜单
-    PROXIO_FOOTER_LINKS: [
-        {
-            name: '友情链接',
-            menus: [
-                {
-                    title: 'Tangly的学习笔记',
-                    href: 'https://blog.tangly1024.com'
-                },
-                {
-                    title: 'NotionNext',
-                    href: 'https://www.tangly1024.com'
-                }
-            ]
-        },
-        {
-            name: '开发者',
-            menus: [
-                { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-                {
-                    title: '开发帮助',
-                    href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-                },
-                {
-                    title: '功能反馈',
-                    href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-                },
-                {
-                    title: '技术讨论',
-                    href: 'https://github.com/tangly1024/NotionNext/discussions'
-                },
-                {
-                    title: '关于作者',
-                    href: 'https://blog.tangly1024.com/about'
-                }
-            ]
-        }],
-
-    PROXIO_FOOTER_BLOG_LATEST_TITLE: '最新文章',
-
-    PROXIO_FOOTER_PRIVACY_POLICY_TEXT: '隐私政策',
-    PROXIO_FOOTER_PRIVACY_POLICY_URL: '/privacy-policy',
-
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_TEXT: '法律声明',
-    PROXIO_FOOTER_PRIVACY_LEGAL_NOTICE_URL: '/legacy-notice',
-
-    PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT: '服务协议',
-    PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
+    
 
     // 404页面的提示语
     PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
@@ -243,17 +195,17 @@ const CONFIG = {
 
     // 页面底部的行动呼吁模块
     PROXIO_CTA_ENABLE: true,
-    PROXIO_CTA_TITLE: '与我建立联系',
-    PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+    PROXIO_CTA_TITLE: '抢占AI时代先机',
+    PROXIO_CTA_TITLE_2: '开启您企业的AI人才进化之旅',
     PROXIO_CTA_DESCRIPTION:
-        '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+        '无论您是寻求体系化的解决方案，还是需要针对性的专家咨询，昆仑人才研究院都随时准备为您服务。',
     PROXIO_CTA_BUTTON: true, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
-    PROXIO_CTA_BUTTON_TEXT: '联系我',
+    PROXIO_CTA_BUTTON_TEXT: '联系我们',
 
     PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-    PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+    PROXIO_POST_REDIRECT_URL: 'https://vln844fdcr.feishu.cn/share/base/form/shrcnsTQWqJD0UM4VTyCJOBcvsf', // 重定向域名
     PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
