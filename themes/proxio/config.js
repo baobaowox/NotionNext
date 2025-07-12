@@ -199,7 +199,7 @@ const CONFIG = {
     PROXIO_CTA_TITLE_2: '开启您企业的AI人才进化之旅',
     PROXIO_CTA_DESCRIPTION:
         '无论您是寻求体系化的解决方案，还是需要针对性的专家咨询，昆仑人才研究院都随时准备为您服务。',
-    PROXIO_CTA_BUTTON: true, // 是否显示按钮
+    PROXIO_CTA_BUTTON: false, // 是否显示按钮
     PROXIO_CTA_BUTTON_URL:
         '/about',
     PROXIO_CTA_BUTTON_TEXT: '联系我们',
