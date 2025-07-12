@@ -60,8 +60,8 @@ const CONFIG = {
     PROXIO_FEATURE_3_TITLE_1: '专属定制方案',
     PROXIO_FEATURE_3_TEXT_1: '深入理解企业战略与业务痛点，提供高度个性化的咨询、培训与落地辅导服务。',
 
-    PROXIO_FEATURE_BUTTON_TEXT: '', // 按钮文字，原来是“了解更多”
-    PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+    PROXIO_FEATURE_BUTTON_TEXT: '', // 按钮文字
+    PROXIO_FEATURE_BUTTON_URL: '', // 按钮跳转
 
     // 首页生涯区块
     PROXIO_CAREER_ENABLE: false, // 区块开关
